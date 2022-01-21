@@ -8,7 +8,7 @@ public class HolaMundo {
 
     String name = scan.nextLine();
 
-    System.out.println("Hola " + name +"!,eres muy guapo");
+    System.out.println("Hola " + name );
 
     System.out.println("¿Cuantos años tienes?");
 
