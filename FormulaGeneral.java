@@ -25,10 +25,16 @@ public class FormulaGeneral {
       System.out.println("No se puede resolver");
 
     }else{
-      double resultado = ((-(bx)) + (factorizacion))/(2 * (ax));
+      double resultado = ((-(bx)) + (Math.sqrt(factorizacion)))/(2 * (ax));
 
+      System.out.println(resultado);
+
+      double resultado2 = ((-(bx)) - (Math.sqrt(factorizacion)))/(2 * (ax));
+
+      System.out.println(resultado2);
     }
 
   }
 
 }
+

@@ -1,5 +1,6 @@
 public class EjerciciosJava {
   public static void main(String[] args) {
+
     int numero = 10;
 
     if (numero % 5 == 0){
